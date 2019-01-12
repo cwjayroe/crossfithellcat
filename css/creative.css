@@ -47,6 +47,9 @@
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+.provided-button {
+    margin-top:1rem;
+}
 /* Projects */
 .projects-section {
   padding: 10rem 0;
