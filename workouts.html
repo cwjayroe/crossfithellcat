@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
@@ -133,57 +133,57 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#page-top">
-                <img src="img/logo/logo_original_white_cropped.png" height="30" width="200" alt="">
+                    <img src="img/logo/logo_original_white_cropped.png" height="30" width="200" alt="">
                 </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                    <a class="nav-link nav-item-special js-scroll-trigger" onclick="window.location.replace('index.html#page-top')"">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link nav-item-special js-scroll-trigger" onclick="window.location.replace('index.html#services')"">Services</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#team')"">Team</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#pricing')"">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#schedule')"">Schedule</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#contact');">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" onclick="window.location.replace('crossfit101.html');">CrossFit 101</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" onclick="window.location.replace('workouts.html');">Workouts</a>
-                    </li>
-                </ul>
-                <div class="text-center social-container">
-                    <ul class="list-inline list-social">
-                    <li class="list-inline-item" style="padding:none;margin:none;">
-                        <a target="_blank" href="https://twitter.com/crossfitofaces?lang=en">
-                        <i class="fab fa-lg fa-twitter icon" style="padding:none;margin:none;"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item" style="padding:none;margin:none;">
-                        <a target="_blank" href="https://www.facebook.com/CrossFitHellCat/">
-                        <i class="fab fa-lg fa-facebook-f icon" style="padding:none;margin:none;"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item" style="padding:none;margin:none;">
-                        <a target="_blank" href="https://www.instagram.com/crossfithellcat/">
-                        <i class="fab fa-lg fa-instagram icon" style="padding:none;margin:none;"></i>
-                        </a>
-                    </li>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                        <a class="nav-link nav-item-special js-scroll-trigger" onclick="window.location.replace('index.html#page-top')">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link nav-item-special js-scroll-trigger" onclick="window.location.replace('index.html#services')">Services</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#team')">Team</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#pricing')">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#schedule')">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick="window.location.replace('index.html#contact');">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" onclick="window.location.replace('crossfit101.html');">CrossFit 101</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" onclick="window.location.replace('workouts.html');">Workouts</a>
+                        </li>
                     </ul>
-                </div>
+                    <div class="text-center social-container">
+                        <ul class="list-inline list-social">
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://twitter.com/crossfitofaces?lang=en">
+                            <i class="fab fa-lg fa-twitter icon"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.facebook.com/CrossFitHellCat/">
+                            <i class="fab fa-lg fa-facebook-f icon"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a target="_blank" href="https://www.instagram.com/crossfithellcat/">
+                            <i class="fab fa-lg fa-instagram icon"></i>
+                            </a>
+                        </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -254,46 +254,46 @@
                         success: function(data){
                             if (!('APIError' in data)){
                                 trimmed_dict = RemoveCrap(data);
-                                cleaned_dict = RemoveEmptyValues(trimmed_dict)
+                                cleaned_dict = RemoveEmptyValues(trimmed_dict);
                                 
-                                var title = `${cleaned_dict['WodDate']} - ${cleaned_dict['WodName']}`
+                                var title = `${cleaned_dict['WodDate']} - ${cleaned_dict['WodName']}`;
                                 var col_div = jQuery('<div/>', {id: `col-card-${day}`,class: 'col-sm-4',});
                                 var card_div = jQuery('<div/>', {style:'margin-bottom:1.5rem;', id: `workout-card-${day}`,class: 'card',});
                                 var card_header_div = jQuery('<div/>', {id: `card-header-${day}`,class: 'card-header',});
                                 var card_header = jQuery('<h4/>', {text:title ,class: 'my-0 font-weight-normal',});
                                 var card_body_div = jQuery('<div/>', {id: `card-body-${day}`,class: 'card-body',});
 
-                                col_div.appendTo('#card-container')
-                                card_div.appendTo(`#col-card-${day}`)
-                                card_header_div.appendTo(`#workout-card-${day}`)
-                                card_header.appendTo(`#card-header-${day}`)
-                                card_body_div.appendTo(`#workout-card-${day}`)
+                                col_div.appendTo('#card-container');
+                                card_div.appendTo(`#col-card-${day}`);
+                                card_header_div.appendTo(`#workout-card-${day}`);
+                                card_header.appendTo(`#card-header-${day}`);
+                                card_body_div.appendTo(`#workout-card-${day}`);
 
                                 for (var component in cleaned_dict) {
-                                    if (component != 'WodDate' && component != 'WodName'){ 
-                                        var sub_component = cleaned_dict[component]
+                                    if (component !== 'WodDate' && component !== 'WodName'){ 
+                                        var sub_component = cleaned_dict[component];
 
                                         if ('OwnershipLevelName' in sub_component) {
-                                            if (sub_component['OwnershipLevelName'] == 'Global'){
+                                            if (sub_component['OwnershipLevelName'] === 'Global'){
                                                 var global_name_piece = jQuery('<div/>', {style:'white-space:pre-wrap', text:sub_component['Name']});
-                                                global_name_piece.appendTo(`#card-body-${day}`)
+                                                global_name_piece.appendTo(`#card-body-${day}`);
                                             }
                                             if ('Description' in sub_component){
                                                 var description_piece = jQuery('<div/>', {style:'white-space:pre-wrap', text:sub_component['Description']});
-                                                description_piece.appendTo(`#card-body-${day}`)
+                                                description_piece.appendTo(`#card-body-${day}`);
 
                                             }
                                             if ('Comments' in sub_component){
                                                 var comment_piece = jQuery('<div/>', {style:'white-space:pre-wrap',text:sub_component['Comments']});
-                                                comment_piece.appendTo(`#card-body-${day}`)
+                                                comment_piece.appendTo(`#card-body-${day}`);
                                             }
                                         } else {
                                             var workout_piece_title = jQuery('<div/>', {class:'font-weight-bold h5', style:'margin-top:1.25rem;',text:sub_component['Name']});
-                                            workout_piece_title.appendTo(`#card-body-${day}`)
+                                            workout_piece_title.appendTo(`#card-body-${day}`);
 
                                             if ('Comments' in sub_component){
-                                                var comment_piece = jQuery('<div/>', {style:'white-space:pre-wrap',text:sub_component['Comments']});
-                                                comment_piece.appendTo(`#card-body-${day}`)
+                                                var comment_piece2 = jQuery('<div/>', {style:'white-space:pre-wrap',text:sub_component['Comments']});
+                                                comment_piece2.appendTo(`#card-body-${day}`);
                                             }
                                         } 
                                     }
@@ -302,7 +302,7 @@
 
                         },
                         error: function(data) {
-                            console.log(data)
+                            console.log(data);
                         }
                     });
                 }                
@@ -312,7 +312,7 @@
                 for (var i=0; i<6; i++) {
                     var d = new Date();
                     d.setDate(d.getDate() - i);
-                    result.push( d.toLocaleDateString().toString() )
+                    result.push(d.toLocaleDateString().toString());
                 }
                 return result;
             }
@@ -322,50 +322,50 @@
                 i = 0;
                 j = 0;
                 for (var component in WodDict){
-                    if (component != 'WodDate' && component != 'WodName'){
-                        values = WodDict[component]
+                    if (component !== 'WodDate' && component !== 'WodName'){
+                        values = WodDict[component];
 
                         var another_empty_dict = {};
                         for (var item in values) {
                             if (values[item]){
-                                another_empty_dict[item] = values[item]
+                                another_empty_dict[item] = values[item];
                             }
                         }
 
-                        merged_dict[j] = another_empty_dict
+                        merged_dict[j] = another_empty_dict;
                     } else {
-                        merged_dict[component] = WodDict[component]
+                        merged_dict[component] = WodDict[component];
                     }
 
-                    j += 1
+                    j += 1;
                 }
-                i += 1
-                return merged_dict
+                i += 1;
+                return merged_dict;
             }
             function RemoveCrap(WodDict){
-                var components = WodDict['RecordList']['APIWod']['Components']['Component']
+                var components = WodDict['RecordList']['APIWod']['Components']['Component'];
                 var wod_date = WodDict['RecordList']['APIWod']['WodHeader']['Date'];
                 var wod_name = WodDict['RecordList']['APIWod']['WodHeader']['Name'];
-                var useful_fields = ['Name', 'OwnershipLevelName', 'Description', 'Comments']
+                var useful_fields = ['Name', 'OwnershipLevelName', 'Description', 'Comments'];
 
-                var empty_dict = {}
-                var i = 0
+                var empty_dict = {};
+                var i = 0;
                 for (var component in components) {
                     var sub_component = components[component];
                     
-                    workout_dict = {}
+                    workout_dict = {};
                     for (var component_info in sub_component ) {
                         if (useful_fields.indexOf(component_info) >= 0) {
                             workout_dict[component_info] = sub_component[component_info];
                         }
                     }
-                    empty_dict[i] = workout_dict
-                    i += 1
+                    empty_dict[i] = workout_dict;
+                    i += 1;
                 }
 
                 empty_dict['WodDate'] = wod_date;
                 empty_dict['WodName'] = wod_name;
-                return empty_dict
+                return empty_dict;
             }
         </script>
     </body>
