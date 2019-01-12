@@ -206,7 +206,7 @@
             <div class="container">
                 <div class="row">
                 <div class="col-lg-12 text-center team-header-spacing">
-                    <h2 class="section-heading text-uppercase">Our Workouts of the day<h2>
+                    <h2 class="section-heading text-uppercase">Our Workouts of the day</h2>
                     <h3 class="section-subheading text-muted">Get to it.</h3>
                     <hr class="hr-dark">
                 </div>
@@ -257,11 +257,11 @@
                                 cleaned_dict = RemoveEmptyValues(trimmed_dict);
                                 
                                 var title = `${cleaned_dict['WodDate']} - ${cleaned_dict['WodName']}`;
-                                var col_div = jQuery('<div/>', {id: `col-card-${day}`,class: 'col-sm-4',});
-                                var card_div = jQuery('<div/>', {style:'margin-bottom:1.5rem;', id: `workout-card-${day}`,class: 'card',});
-                                var card_header_div = jQuery('<div/>', {id: `card-header-${day}`,class: 'card-header',});
-                                var card_header = jQuery('<h4/>', {text:title ,class: 'my-0 font-weight-normal',});
-                                var card_body_div = jQuery('<div/>', {id: `card-body-${day}`,class: 'card-body',});
+                                var col_div = jQuery('<div/>', {id: `col-card-${day}`,class: 'col-sm-4'});
+                                var card_div = jQuery('<div/>', {style:'margin-bottom:1.5rem;', id: `workout-card-${day}`,class: 'card'});
+                                var card_header_div = jQuery('<div/>', {id: `card-header-${day}`,class: 'card-header'});
+                                var card_header = jQuery('<h4/>', {text:title ,class: 'my-0 font-weight-normal'});
+                                var card_body_div = jQuery('<div/>', {id: `card-body-${day}`,class: 'card-body'});
 
                                 col_div.appendTo('#card-container');
                                 card_div.appendTo(`#col-card-${day}`);
