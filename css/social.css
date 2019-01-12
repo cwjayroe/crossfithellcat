@@ -1,0 +1,57 @@
+/* Social Media Icons */
+.icon {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left:0.5rem;
+}
+
+.list-social {
+  margin-bottom: 0;
+}
+
+.list-social li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: black;
+  border-radius: 100%;
+  margin-bottom:0;
+}
+
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+
+footer.contact ul.list-social li a {
+  font-size: 40px;
+  line-height: 80px;
+  display: block;
+  width: 80px;
+  height: 80px;
+  color: white;
+  border-radius: 100%;
+}
+
+footer.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+
+footer.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+
+footer.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+
+footer.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+
+footer.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+
+footer.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
