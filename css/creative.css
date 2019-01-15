@@ -1,3 +1,7 @@
+.no-decoration:hover {
+  text-decoration: none;
+}
+
 /* Buttons */
 .btn {
   font-weight: 700;
@@ -68,7 +72,7 @@
 header.main-masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header_opacity_scaled.png");
+  background-image: url("../img/header_opacity_scaled3.png");
   background-position: center center;
   background-size: cover;
 }
