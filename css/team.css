@@ -9,7 +9,8 @@
 }
 
 #team .member .pic img {
-  max-width: 100%;
+  width: 250px;
+  max-height:250px;
 }
 
 #team .member .details {
@@ -17,6 +18,9 @@
   color: black;
   padding: 15px;
   border-radius: 0 0 3px 3px;
+  max-width: 250px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 #team .member h4 {
