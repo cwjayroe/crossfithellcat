@@ -6,11 +6,11 @@ try {
     $comments = $_POST['formcomments'];
 
     if(!empty($from) && !empty($phone) & !empty($name) & !empty($comments)){
-        $to = "jayroe.will@gmail.com";
-        $subject = "New Form submission";
-
+        $to = "info@crossfithellcat.com";
+        $subject = "New Web Form submission";
+        $body = "Web form filled out by: " . $name . "Email address: " . $from . "Phone #: " . $phone . "Comments: " . $comments
         $headers = "From:" . $from;
-        mail($to,$subject,$message,$headers);
+        mail($to,$subject,$body,$headers);
         echo "True";
     } else {
         echo "False";
