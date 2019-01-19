@@ -8,7 +8,7 @@ try {
     if(!empty($from) && !empty($phone) & !empty($name) & !empty($comments)){
         $to = "info@crossfithellcat.com";
         $subject = "New Web Form submission";
-        $body = "Web form filled out by: " . $name . "Email address: " . $from . "Phone #: " . $phone . "Comments: " . $comments;
+        $body = "Web form filled out by: " . $name . "\r\nEmail address: " . $from . "\r\nPhone #: " . $phone . "\r\nComments: " . $comments;
         $headers = "From:" . $from;
         mail($to,$subject,$body,$headers);
         echo "True";
