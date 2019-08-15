@@ -95,7 +95,7 @@ a {
 }
 
 a:hover {
-  color: red;
+  color: #c2ca43;
 }
 
 h1,
@@ -204,12 +204,12 @@ Nav Bar
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: rgba(185, 185, 185, 0.432);
+  color: #c2ca43;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #dd4b39 !important;
+  color: #0f1b45 !important;
   background-color: transparent;
 }
 
@@ -271,7 +271,7 @@ Services
   padding-top: 8px;
   text-align: center;
   position: absolute;
-  background-color: #dd4b39;
+  background-color: #0f1b45;
   border-radius: 50%;
   text-align: center;
   border: 4px solid #fff;
@@ -292,7 +292,7 @@ Services
 }
 
 #provided .about-col:hover i {
-  color: #dd4b39 ;
+  color: #0f1b45 ;
 }
 
 #provided .about-col h2 {
@@ -309,7 +309,7 @@ Services
 }
 
 #provided .about-col h2 a:hover {
-  color: #dd4b39 ;
+  color: #0f1b45 ;
 }
 
 #provided .about-col p {
@@ -343,8 +343,8 @@ Buttons
 }
 
 .btn-secondary {
-  background-color:#d73925;
-  border-color:#d73925;
+  background-color:#0f1b45;
+  border-color:#0f1b45;
   color: white;
 }
 
@@ -355,7 +355,7 @@ Buttons
 }
 
 .btn-tertiary:hover {
-  color: #d73925;
+  color: #c2ca43;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
@@ -495,11 +495,11 @@ footer.contact ul.list-social li.social-facebook a:hover {
 }
 
 footer.contact ul.list-social li.social-google-plus a {
-  background-color: #dd4b39;
+  background-color: #0f1b45;
 }
 
 footer.contact ul.list-social li.social-google-plus a:hover {
-  background-color: #d73925;
+  background-color: #c2ca43;
 }
 
 
