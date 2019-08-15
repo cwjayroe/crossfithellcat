@@ -1,4 +1,13 @@
 
+@font-face {
+  font-family: 'vintage_college_worn';
+  src: url('C:/Users/Will Jayroe/Desktop/Repos/crossfithellcat/fonts/vintage_college_dept_worn-webfont.woff2') format('woff2'),
+       url('C:/Users/Will Jayroe/Desktop/Repos/crossfithellcat/fonts/vintage_college_dept_worn-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /* Projects */
 .projects-section {
   padding: 10rem 0;
@@ -185,9 +194,10 @@ Nav Bar
 
 #mainNav .navbar-brand {
   font-weight: 700;
+  font-size: 30px;
   text-transform: uppercase;
   color: black;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'vintage_college_worn';
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
