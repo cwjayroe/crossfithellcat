@@ -1,14 +1,12 @@
-
 @font-face {
   font-family: 'vintage_college_worn';
-  src: url('https://crossfithellcat.com/fonts/vintage_college_dept_worn-webfont.woff2') format('woff2'),
-       url('https://crossfithellcat.com/fonts/vintage_college_dept_worn-webfont.woff') format('woff');
+  src: url('/fonts/TradeSupply-Regular.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-
 }
 
 /* Projects */
+
 .projects-section {
   padding: 10rem 0;
 }
@@ -27,6 +25,7 @@
 General
 
 -------------------------------- */
+
 .map {
   height: 30rem;
 }
@@ -42,11 +41,13 @@ section {
 .section-heading {
   margin-top: 0;
 }
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+
 .trainer-name {
-  font-size:2rem;
+  font-size: 2rem;
 }
 
 #trainer-container {
@@ -55,11 +56,11 @@ section {
 }
 
 .no-border-radius {
-  border-radius:0;
+  border-radius: 0;
 }
 
 .no-padding {
-  padding:0;
+  padding: 0;
 }
 
 .heavy-header {
@@ -69,11 +70,10 @@ section {
 .footer {
   bottom: 0;
   width: 100%;
-  padding:2rem;
+  padding: 2rem;
 }
 
-body,
-html {
+body, html {
   width: 100%;
   height: 100%;
   position: relative;
@@ -96,7 +96,6 @@ body {
   border-color: black;
 }
 
-
 a {
   color: black;
   -webkit-transition: all 0.2s;
@@ -107,12 +106,7 @@ a:hover {
   color: #c2ca43;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -159,8 +153,8 @@ img::-moz-selection {
   max-width: 400px;
 }
 
-#services-container{
-  margin-top:0;
+#services-container {
+  margin-top: 0;
 }
 
 .nav-link:hover {
@@ -176,7 +170,7 @@ img::-moz-selection {
 }
 
 .bg-lightish {
-  background-color:#F3F4F5;
+  background-color: #F3F4F5;
 }
 
 /* -------------------------------- 
@@ -184,6 +178,7 @@ img::-moz-selection {
 Nav Bar
 
 -------------------------------- */
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -204,36 +199,32 @@ Nav Bar
   color: black;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+#mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
   color: #c2ca43;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
   color: #c2ca43 !important;
   background-color: transparent;
 }
 
-#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
-#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
   background-color: transparent;
 }
-
 
 /* -------------------------------- 
 
 MastHead
 
 -------------------------------- */
+
 header.main-masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -260,6 +251,7 @@ header.main-masthead p {
 Services
 
 -------------------------------- */
+
 #provided .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
@@ -302,7 +294,7 @@ Services
 }
 
 #provided .about-col:hover i {
-  color: #0f1b45 ;
+  color: #0f1b45;
 }
 
 #provided .about-col h2 {
@@ -319,7 +311,7 @@ Services
 }
 
 #provided .about-col h2 a:hover {
-  color: #0f1b45 ;
+  color: #0f1b45;
 }
 
 #provided .about-col p {
@@ -330,12 +322,12 @@ Services
   padding: 0 20px 20px 20px;
 }
 
-
 /* -------------------------------- 
 
 Buttons
 
 -------------------------------- */
+
 .btn {
   font-weight: 700;
   text-transform: uppercase;
@@ -347,20 +339,20 @@ Buttons
 }
 
 .btn-primary {
-  background-color:rgba(33, 37, 41, 0.1);
+  background-color: rgba(33, 37, 41, 0.1);
   border-color: white;
   color: white;
 }
 
 .btn-secondary {
-  background-color:#0f1b45;
-  border-color:#0f1b45;
+  background-color: #0f1b45;
+  border-color: #0f1b45;
   color: white;
 }
 
 .btn-tertiary {
-  background-color:black;
-  border-color:black;
+  background-color: black;
+  border-color: black;
   color: white;
 }
 
@@ -369,7 +361,7 @@ Buttons
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color:black;
+  color: black;
   background-color: white !important;
 }
 
@@ -379,7 +371,7 @@ Buttons
 }
 
 .btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  color:black;
+  color: black;
   background-color: white !important;
 }
 
@@ -389,9 +381,8 @@ Buttons
 }
 
 .provided-button {
-    margin-top:1rem;
+  margin-top: 1rem;
 }
-
 
 /* -------------------------------- 
 
@@ -402,12 +393,14 @@ Team
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  color:white;
+  color: white;
 }
 
 #team .member img {
   width: 250px;
-  max-height:250px;
+  max-height: 250px;
+  object-fit: cover;
+  object-position: top center;
 }
 
 #team .member .pic {
@@ -449,16 +442,16 @@ Team
   margin: 0 2px;
 }
 
-
 /* -------------------------------- 
 
 Social Media Icons
 
 -------------------------------- */
+
 .icon {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  padding-left:0.5rem;
+  padding-left: 0.5rem;
 }
 
 .list-social {
@@ -471,7 +464,7 @@ Social Media Icons
   height: 30px;
   color: black;
   border-radius: 100%;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
 
 section.contact ul.list-social {
@@ -512,7 +505,6 @@ footer.contact ul.list-social li.social-google-plus a:hover {
   background-color: #c2ca43;
 }
 
-
 /* -------------------------------- 
 
 Resizing
@@ -530,7 +522,8 @@ Resizing
     font-size: 22px;
   }
   #services-container {
-    margin-top:5rem;;
+    margin-top: 5rem;
+    ;
   }
 }
 
@@ -547,7 +540,7 @@ Resizing
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color:black;
+    border-color: black;
     border-width: .25rem;
     width: 30%;
   }
@@ -573,7 +566,7 @@ Resizing
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
   }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+  #mainNav .navbar-nav>li.nav-item>a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav.navbar-shrink {
